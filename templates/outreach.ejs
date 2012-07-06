@@ -1,8 +1,9 @@
 [<%= locale.code %>] Mozilla l10n work for <%= locale.name %>
 Hi <%= all_names.join(", ") %>,
 
-we've found that your localization is behind,
-https://l10n.mozilla.org/teams/<%= locale.code %> has the current status.
+Please visit your dashboard and complete all remaining work. We've found that your
+localization may be behind. Your team's dashboard at 
+https://l10n.mozilla.org/teams/<%=locale.code %> has the current status.
 
 The Aurora migration date for your projects is [date]. The Beta string freeze
 date for your projects is [date]. This email is not a regular reminder;
@@ -31,6 +32,17 @@ for (var _i=0; _i < 2; ++_i) {
   }
 }
 -%>
+
+This email is not meant as a regular reminder;
+please subscribe to the rapid release schedule calendar
+https://mail.mozilla.com/home/akeybl@mozilla.com/Release%20Management.html and
+set aside l10n/sign-off time for each upcoming migration day.
+
+Please remember that each partially localized release adds more new content to your repo,
+creating a larger backlog of content to localize. Each partially localized release also
+keeps users in your region from accessing the latest Firefox enhancements in their
+language.
+
 Please feel free to contact us with any questions or problems.
 
 Thank you for your efforts,
